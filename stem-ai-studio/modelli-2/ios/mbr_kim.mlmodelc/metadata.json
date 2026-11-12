@@ -1,0 +1,78 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Mixed (Float32, Int32)",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 4 × 1025 × 801)",
+        "shortDescription" : "",
+        "shape" : "[1, 4, 1025, 801]",
+        "name" : "vocals_stft",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 9,
+    "mlProgramOperationTypeHistogram" : {
+      "Ios18.linear" : 374,
+      "Ios18.scaledDotProductAttention" : 96,
+      "Ios18.sub" : 2,
+      "Ios18.clip" : 96,
+      "Stack" : 1,
+      "Ios18.concat" : 206,
+      "Ios18.add" : 218,
+      "Ios18.sigmoid" : 72,
+      "Ios18.realDiv" : 96,
+      "Ios18.gelu" : 12,
+      "Ios18.tanh" : 120,
+      "Ios18.sliceByIndex" : 384,
+      "Ios18.transpose" : 16,
+      "Ios16.reduceL2Norm" : 96,
+      "Ios18.squeeze" : 60,
+      "Ios18.reshape" : 2,
+      "Split" : 16,
+      "Ios18.mul" : 476
+    },
+    "computePrecision" : "Mixed (Float32, Int32)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "15.0",
+      "tvOS" : "18.0",
+      "visionOS" : "2.0",
+      "watchOS" : "11.0",
+      "iOS" : "18.0",
+      "macCatalyst" : "18.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.conversion_date" : "2026-11-10",
+      "com.github.apple.coremltools.source" : "torch==2.5.1+cpu",
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 4 × 1025 × 801)",
+        "shortDescription" : "",
+        "shape" : "[1, 4, 1025, 801]",
+        "name" : "stft",
+        "type" : "MultiArray"
+      }
+    ],
+    "generatedClassName" : "mbr_kim",
+    "method" : "predict"
+  }
+]
