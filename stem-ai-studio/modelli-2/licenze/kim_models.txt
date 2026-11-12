@@ -1,0 +1,61 @@
+Mel-Band RoFormer vocal model (MelBandRoformer.ckpt) and UVR-MDX-NET Kim Vocal 2 (Kim_Vocal_2.onnx) by Kimberley
+Jensen, converted for Core ML (iOS) and ncnn (Android)
+
+Mel-Band RoFormer: https://huggingface.co/KimberleyJSN/melbandroformer, revision
+ac9b0614ab3cd7f77219e18ba494dfd93956c348 (22 April 2026), file MelBandRoformer.ckpt (SHA-256
+87201f4d31afb5bc79993230fc49446918425574db48c01c405e44f365c7559e). Licence declared by the author on the model card at
+that revision: MIT ("license: mit"; model card read through the Hugging Face API on 10 November 2026).
+
+Kim Vocal 2: file Kim_Vocal_2.onnx (SHA-256 ce74ef3b6a6024ce44211a07be9cf8bc6d87728cc852a68ab34eb8e58cde9c8b) from the
+release "all_public_uvr_models" of https://github.com/TRvlvr/model_repo. Licence declared by the author: MIT, including
+commercial use:
+"I have changed the license to MIT on huggingface, that can apply to the Kim_Vocal_2 too, you are free to use these
+models and redistribute them in any way you like."
+(https://github.com/KimberleyJensen/Mel-Band-Roformer-Vocal-Model/issues/18)
+"You are free to use the MDX-Net model Kim_Vocal_2 (Kim_Vocal_2.onnx) in any way you like, including for commercial
+use." (https://github.com/KimberleyJensen/kmdx-net_music-source-separation/issues/3)
+
+Author of the weights: Kimberley Jensen (KimberleyJSN on Hugging Face, KimberleyJensen on GitHub).
+Credits: Mel-Band RoFormer architecture by Ju-Chiang Wang, Wei-Tsung Lu and Minz Won (ByteDance AI Labs); MDX-Net
+architecture by Kuielab & Woosung Choi.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--------------------------------------------------------------------------------
+For the conversion, the Mel-Band RoFormer network was rewritten following MelBandRoformer of BS-RoFormer 0.3.10
+(https://github.com/lucidrains/BS-RoFormer), also used as the reference model:
+
+MIT License
+
+Copyright (c) 2023 Phil Wang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

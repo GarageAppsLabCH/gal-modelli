@@ -1,0 +1,519 @@
+{
+  "app": "stem-ai-studio",
+  "format": "gal-modelli-catalogo",
+  "models": [
+    {
+      "attribution": "Kimberley Jensen (Mel-Band RoFormer vocal model, huggingface.co/KimberleyJSN/melbandroformer); Mel-Band RoFormer architecture by Ju-Chiang Wang, Wei-Tsung Lu and Minz Won (ByteDance AI Labs); network rewritten for the conversion following BS-RoFormer 0.3.10 by Phil Wang (MIT)",
+      "id": "mbr_kim",
+      "license": "MIT",
+      "licenseFile": "licenze/kim_models.txt",
+      "name": "Mel-Band RoFormer (Kimberley Jensen)",
+      "platforms": {
+        "ios": {
+          "bytes": 930285230,
+          "files": [
+            {
+              "bytes": 243,
+              "path": "ios/mbr_kim.mlmodelc/analytics/coremldata.bin",
+              "sha256": "969003705f4338025de747eb03168b2ce6fc7cc5d5e3bbbfff7b4a4d16bd2fa2"
+            },
+            {
+              "bytes": 384,
+              "path": "ios/mbr_kim.mlmodelc/coremldata.bin",
+              "sha256": "ca353012596084fc9287c55e2cac586daa27637d5ee82dc5476ecbd801035347"
+            },
+            {
+              "bytes": 2110,
+              "path": "ios/mbr_kim.mlmodelc/metadata.json",
+              "sha256": "fdf6ff9c61be7b3a5082eea9f51a3a78b68d12436c9e8658391aa8e27ab158b0"
+            },
+            {
+              "bytes": 781753,
+              "path": "ios/mbr_kim.mlmodelc/model.mil",
+              "sha256": "870ef4e3df939a3160ee61a71520d9df0abcc9f4e9b5f58622a8c440e9eb417f"
+            },
+            {
+              "bytes": 929500740,
+              "parts": [
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part00",
+                  "sha256": "991c1ad3fc3fb2b85d46fda6aeb117fca5efa5b875dc0ddd0f2cfb1c66a61fa2"
+                },
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part01",
+                  "sha256": "f50089f0e6ba783486a95fd63852a053d33b5b5803b9a1fddabd0f1054ea7628"
+                },
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part02",
+                  "sha256": "158536a5ae4191f98bd3b38f85eecad259ef7b15e8e212d28b5d956e037d113b"
+                },
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part03",
+                  "sha256": "3ec6d9585187b9c7338ffe5f5ca806b1da2fde73ae27c43fcb3ebebb092545a7"
+                },
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part04",
+                  "sha256": "d370ad668319d95cdc8c58a11f06eaba36a95564c7369ad770513212c72c7914"
+                },
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part05",
+                  "sha256": "b99f2c060623a92ecb14b519caafce49614ac3603c71680f04605acd18ad5691"
+                },
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part06",
+                  "sha256": "1ad0b25b0c3618b44a63dc32ce99b70b3961822bca27582397ebef7269996c77"
+                },
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part07",
+                  "sha256": "6f5c8156540f140b0f6ffa0020d1e917e9467745eb2316e19a658f9c6843e3c7"
+                },
+                {
+                  "bytes": 94371840,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part08",
+                  "sha256": "efaba7c1ac068ae324d7cbe4a928c8b0c98dab24819ffd3df1bbb85f3272a36d"
+                },
+                {
+                  "bytes": 80154180,
+                  "path": "ios/mbr_kim.mlmodelc/weights/weight.bin.part09",
+                  "sha256": "27cec3a0be0a7f847ee09df5c84d69f4c122ef64b51bf183fc542380148e7ff9"
+                }
+              ],
+              "path": "ios/mbr_kim.mlmodelc/weights/weight.bin",
+              "sha256": "7b60ee1d01221a551fa27d2a9e40442c9170896ce97a0a35e8755531ad417f63"
+            }
+          ],
+          "kind": "coreml",
+          "memory": {
+            "baseMb": 279,
+            "baselineMb": 0,
+            "basis": [
+              "mdx_kim_vocal2",
+              "mdx_kara2",
+              "mdx_kara1",
+              "mdx_inst_hq5",
+              "umxhq_vocals"
+            ],
+            "ciDeltaMb": 1840.6,
+            "computeUnits": "ALL richieste; dispositivi della macchina: CPU, GPU; piano di calcolo: CPU 2343 operazioni",
+            "deltaMb": 2727,
+            "device": "iPhone 16 (A18, 6 core, RAM 7680 MB)",
+            "estimateMb": 2727,
+            "factor": 1.33,
+            "floorMb": 2464,
+            "measured": "2026-11-12",
+            "peakMb": 2727,
+            "run": "gal-modelli, run 43235336133, 2026-11-12",
+            "runner": "GitHub Actions macos-26, arm64, macchina virtuale senza GPU né Neural Engine",
+            "source": "telefono-fallito"
+          },
+          "minOs": "18.0",
+          "root": "ios/mbr_kim.mlmodelc"
+        }
+      }
+    },
+    {
+      "attribution": "Kimberley Jensen (UVR-MDX-NET Kim Vocal 2, from the release all_public_uvr_models of github.com/TRvlvr/model_repo); MDX-Net architecture by Kuielab & Woosung Choi",
+      "id": "mdx_kim_vocal2",
+      "license": "MIT",
+      "licenseFile": "licenze/kim_models.txt",
+      "name": "UVR-MDX-NET Kim Vocal 2",
+      "platforms": {
+        "android": {
+          "bytes": 66742884,
+          "files": [
+            {
+              "bytes": 66725660,
+              "path": "android/Kim_Vocal_2.bin",
+              "sha256": "dc125756b5b4dc1392a008135e36ba514b3f9e1c20b195b10f5a4e8b78c3aad3"
+            },
+            {
+              "bytes": 17224,
+              "path": "android/Kim_Vocal_2.param",
+              "sha256": "2f4640fab0eec6ac56714719f863570df8963aa2223da6706084df853aabb8c1"
+            }
+          ],
+          "kind": "ncnn",
+          "memory": {
+            "baselineMb": 49.8,
+            "computeUnits": "CPU, 2 thread, senza Vulkan, float32",
+            "deltaMb": 1893.2,
+            "peakMb": 1943,
+            "run": "gal-modelli, run 43235336133, 2026-11-12",
+            "runner": "GitHub Actions ubuntu-latest, x86_64, CPU",
+            "source": "ci"
+          },
+          "minOs": "7.0",
+          "root": "android"
+        },
+        "ios": {
+          "bytes": 66872015,
+          "files": [
+            {
+              "bytes": 243,
+              "path": "ios/Kim_Vocal_2.mlmodelc/analytics/coremldata.bin",
+              "sha256": "d039556d6ed4c9872cc5e23436310c73db43f4134ad8981885cb5d4d54a093bf"
+            },
+            {
+              "bytes": 380,
+              "path": "ios/Kim_Vocal_2.mlmodelc/coremldata.bin",
+              "sha256": "6ba4fbcfce10bc3a7568e2bfde1a3ebcfe9227cc3127b2fac48e4bb5f01745fb"
+            },
+            {
+              "bytes": 1764,
+              "path": "ios/Kim_Vocal_2.mlmodelc/metadata.json",
+              "sha256": "7af8516674baf20ebc37cf24c28478dbc67e7f98d2d073f97ae1af898798c74f"
+            },
+            {
+              "bytes": 131452,
+              "path": "ios/Kim_Vocal_2.mlmodelc/model.mil",
+              "sha256": "71f9deb865bab852bd9a5130362862edd62c9d785cdefe34066777c148ce651e"
+            },
+            {
+              "bytes": 66738176,
+              "path": "ios/Kim_Vocal_2.mlmodelc/weights/weight.bin",
+              "sha256": "ce9268da80a536955e9c183b12426e9b602490b11c95d09d23fae7edb56c870a"
+            }
+          ],
+          "kind": "coreml",
+          "memory": {
+            "baselineMb": 759,
+            "computeUnits": "Core ML, unità ALL (GPU e CPU per i modelli float32)",
+            "deltaMb": 983,
+            "peakMb": 1742,
+            "run": "build 1006, 2026-11-12",
+            "runner": "iPhone 16 (A18, 6 core, RAM 7680 MB)",
+            "source": "telefono"
+          },
+          "minOs": "15.0",
+          "root": "ios/Kim_Vocal_2.mlmodelc"
+        }
+      }
+    },
+    {
+      "attribution": "Ultimate Vocal Remover (UVR) and its developers, Anjok07 and aufr33 (github.com/Anjok07/ultimatevocalremovergui; weights from the release all_public_uvr_models of github.com/TRvlvr/model_repo); MDX-Net architecture by Kuielab & Woosung Choi",
+      "id": "mdx_kara2",
+      "license": "MIT",
+      "licenseFile": "licenze/uvr_models.txt",
+      "name": "UVR-MDX-NET Karaoke 2",
+      "platforms": {
+        "android": {
+          "bytes": 52770402,
+          "files": [
+            {
+              "bytes": 52753180,
+              "path": "android/UVR_MDXNET_KARA_2.bin",
+              "sha256": "274c5acfdf47cfb154a59b8408b0b506f210e09c50f3362b11cb4ce8a1ca66bc"
+            },
+            {
+              "bytes": 17222,
+              "path": "android/UVR_MDXNET_KARA_2.param",
+              "sha256": "2ec1f44652a93bcb4d803169b1ffdbe2c10bb49fdeea5e2c3c395a983480047c"
+            }
+          ],
+          "kind": "ncnn",
+          "memory": {
+            "baselineMb": 49.9,
+            "computeUnits": "CPU, 2 thread, senza Vulkan, float32",
+            "deltaMb": 1321.5,
+            "peakMb": 1371.4,
+            "run": "gal-modelli, run 43235336133, 2026-11-12",
+            "runner": "GitHub Actions ubuntu-latest, x86_64, CPU",
+            "source": "ci"
+          },
+          "minOs": "7.0",
+          "root": "android"
+        },
+        "ios": {
+          "bytes": 52899519,
+          "files": [
+            {
+              "bytes": 243,
+              "path": "ios/UVR_MDXNET_KARA_2.mlmodelc/analytics/coremldata.bin",
+              "sha256": "ec511e2b4c6fb7a47c300d4fc632700f7fe8069b50214a1b90f3bf3496bc0e8f"
+            },
+            {
+              "bytes": 380,
+              "path": "ios/UVR_MDXNET_KARA_2.mlmodelc/coremldata.bin",
+              "sha256": "79d3d01f985109c83d46d67b1c1e2700348e664a2f64d5335c0dd4077cfa2556"
+            },
+            {
+              "bytes": 1770,
+              "path": "ios/UVR_MDXNET_KARA_2.mlmodelc/metadata.json",
+              "sha256": "67d98620056afd4a796b0757a05fae273a9c1e32efd727660115ac25d1d18fd1"
+            },
+            {
+              "bytes": 131430,
+              "path": "ios/UVR_MDXNET_KARA_2.mlmodelc/model.mil",
+              "sha256": "82e4ffc54c6ae178d377341e70224a5f72826e27754fef5efcc0c063d25c2193"
+            },
+            {
+              "bytes": 52765696,
+              "path": "ios/UVR_MDXNET_KARA_2.mlmodelc/weights/weight.bin",
+              "sha256": "6a694fb4ef049463a79ccf58b508421464232be6ec27f00a185791c5e04a3dfb"
+            }
+          ],
+          "kind": "coreml",
+          "memory": {
+            "baselineMb": 351,
+            "computeUnits": "Core ML, unità ALL (GPU e CPU per i modelli float32)",
+            "deltaMb": 784,
+            "peakMb": 1135,
+            "run": "build 1006, 2026-11-12",
+            "runner": "iPhone 16 (A18, 6 core, RAM 7680 MB)",
+            "source": "telefono"
+          },
+          "minOs": "15.0",
+          "root": "ios/UVR_MDXNET_KARA_2.mlmodelc"
+        }
+      }
+    },
+    {
+      "attribution": "Ultimate Vocal Remover (UVR) and its developers, Anjok07 and aufr33 (github.com/Anjok07/ultimatevocalremovergui; weights from the release all_public_uvr_models of github.com/TRvlvr/model_repo); MDX-Net architecture by Kuielab & Woosung Choi",
+      "id": "mdx_kara1",
+      "license": "MIT",
+      "licenseFile": "licenze/uvr_models.txt",
+      "name": "UVR-MDX-NET Karaoke 1",
+      "platforms": {
+        "android": {
+          "bytes": 29691964,
+          "files": [
+            {
+              "bytes": 29674780,
+              "path": "android/UVR_MDXNET_KARA.bin",
+              "sha256": "36fbecce14effa3396303ca6b970a0e1d16f04ac72c1cb4b3cf753341a9d2b10"
+            },
+            {
+              "bytes": 17184,
+              "path": "android/UVR_MDXNET_KARA.param",
+              "sha256": "b997ad7a3468ba36d66623596b0080651a0cf8c51170945fdd49e6d2f9aeb8b5"
+            }
+          ],
+          "kind": "ncnn",
+          "memory": {
+            "baselineMb": 49.9,
+            "computeUnits": "CPU, 2 thread, senza Vulkan, float32",
+            "deltaMb": 879.9,
+            "peakMb": 929.8,
+            "run": "gal-modelli, run 43235336133, 2026-11-12",
+            "runner": "GitHub Actions ubuntu-latest, x86_64, CPU",
+            "source": "ci"
+          },
+          "minOs": "7.0",
+          "root": "android"
+        },
+        "ios": {
+          "bytes": 29821004,
+          "files": [
+            {
+              "bytes": 243,
+              "path": "ios/UVR_MDXNET_KARA.mlmodelc/analytics/coremldata.bin",
+              "sha256": "a88809ef27db45bee4205f5e263f62dc94e299c539a0b562e2316502509cd401"
+            },
+            {
+              "bytes": 380,
+              "path": "ios/UVR_MDXNET_KARA.mlmodelc/coremldata.bin",
+              "sha256": "d2ce00ded03ae8017804ade667db2205f8721c08df667b4fa1a31279a7f9b5cc"
+            },
+            {
+              "bytes": 1768,
+              "path": "ios/UVR_MDXNET_KARA.mlmodelc/metadata.json",
+              "sha256": "6bab4c35e2d65f3452af134cadef83f0808cac237bf0fa464ab97a78de48e6bf"
+            },
+            {
+              "bytes": 131317,
+              "path": "ios/UVR_MDXNET_KARA.mlmodelc/model.mil",
+              "sha256": "2a9ac50762dea4d6845a933702f5f98532c38fbebd89ecd508c3c319954d7f33"
+            },
+            {
+              "bytes": 29687296,
+              "path": "ios/UVR_MDXNET_KARA.mlmodelc/weights/weight.bin",
+              "sha256": "e00cabc07547ee0c0ece9fc7d27034b924c0c95e7385067f64f514857f5d07fe"
+            }
+          ],
+          "kind": "coreml",
+          "memory": {
+            "baselineMb": 122,
+            "computeUnits": "Core ML, unità ALL (GPU e CPU per i modelli float32)",
+            "deltaMb": 687,
+            "peakMb": 809,
+            "run": "build 1006, 2026-11-12",
+            "runner": "iPhone 16 (A18, 6 core, RAM 7680 MB)",
+            "source": "telefono"
+          },
+          "minOs": "15.0",
+          "root": "ios/UVR_MDXNET_KARA.mlmodelc"
+        }
+      }
+    },
+    {
+      "attribution": "Ultimate Vocal Remover (UVR) and its developers, Anjok07 and aufr33 (github.com/Anjok07/ultimatevocalremovergui; weights from the release all_public_uvr_models of github.com/TRvlvr/model_repo); MDX-Net architecture by Kuielab & Woosung Choi",
+      "id": "mdx_inst_hq5",
+      "license": "MIT",
+      "licenseFile": "licenze/uvr_models.txt",
+      "name": "UVR-MDX-NET Inst HQ 5",
+      "platforms": {
+        "android": {
+          "bytes": 59058020,
+          "files": [
+            {
+              "bytes": 59040796,
+              "path": "android/UVR-MDX-NET-Inst_HQ_5.bin",
+              "sha256": "42052b296c87e43fbdb969c821b948c57fbb0f4e8afbdee6798fff38c4a26b45"
+            },
+            {
+              "bytes": 17224,
+              "path": "android/UVR-MDX-NET-Inst_HQ_5.param",
+              "sha256": "ba9770f8d9138a8f6d9e2fe21b8048232fbac3e297a9e0bf84bdda9d2a20faf8"
+            }
+          ],
+          "kind": "ncnn",
+          "memory": {
+            "baselineMb": 49.8,
+            "computeUnits": "CPU, 2 thread, senza Vulkan, float32",
+            "deltaMb": 1603.4,
+            "peakMb": 1653.2,
+            "run": "gal-modelli, run 43235336133, 2026-11-12",
+            "runner": "GitHub Actions ubuntu-latest, x86_64, CPU",
+            "source": "ci"
+          },
+          "minOs": "7.0",
+          "root": "android"
+        },
+        "ios": {
+          "bytes": 59187147,
+          "files": [
+            {
+              "bytes": 243,
+              "path": "ios/UVR-MDX-NET-Inst_HQ_5.mlmodelc/analytics/coremldata.bin",
+              "sha256": "a9bbe3a3fb2b149fad09ad1294eb1cd8fc152314108d88df6554768efaf38206"
+            },
+            {
+              "bytes": 380,
+              "path": "ios/UVR-MDX-NET-Inst_HQ_5.mlmodelc/coremldata.bin",
+              "sha256": "905895a1973148fec31f6ea1e3a9cbaf29d2455c2023d69f1609da35ef3ca6ab"
+            },
+            {
+              "bytes": 1774,
+              "path": "ios/UVR-MDX-NET-Inst_HQ_5.mlmodelc/metadata.json",
+              "sha256": "73f5c9b2e161341bc5467430c8ccad3a37b084555d2cc0abf20e4b77f3911367"
+            },
+            {
+              "bytes": 131438,
+              "path": "ios/UVR-MDX-NET-Inst_HQ_5.mlmodelc/model.mil",
+              "sha256": "4ef8babd8409541c59af9da23ca46f97da2bfa910569c7b7e91ebcf3499f1dfc"
+            },
+            {
+              "bytes": 59053312,
+              "path": "ios/UVR-MDX-NET-Inst_HQ_5.mlmodelc/weights/weight.bin",
+              "sha256": "a18a6b7b0c43cc744e2d3a56cbe10c633fcf34ec2115cc9db4183003d4ed4fcf"
+            }
+          ],
+          "kind": "coreml",
+          "memory": {
+            "baselineMb": 467,
+            "computeUnits": "Core ML, unità ALL (GPU e CPU per i modelli float32)",
+            "deltaMb": 1012,
+            "peakMb": 1479,
+            "run": "build 1006, 2026-11-12",
+            "runner": "iPhone 16 (A18, 6 core, RAM 7680 MB)",
+            "source": "telefono"
+          },
+          "minOs": "15.0",
+          "root": "ios/UVR-MDX-NET-Inst_HQ_5.mlmodelc"
+        }
+      }
+    },
+    {
+      "attribution": "Open-Unmix UMX-HQ 1.0.1 by Inria (Fabian-Robert Stöter, Antoine Liutkus), github.com/sigsep/open-unmix-pytorch, weights from Zenodo record 3370489",
+      "id": "umxhq_vocals",
+      "license": "MIT",
+      "licenseFile": "licenze/open_unmix.txt",
+      "name": "Open-Unmix UMX-HQ (vocals)",
+      "platforms": {
+        "android": {
+          "bytes": 35531043,
+          "files": [
+            {
+              "bytes": 35528388,
+              "path": "android/umxhq_vocals.bin",
+              "sha256": "f516714147a1e7f045fe1043a6bdfc7278d5142d41a76a483fa84a491c2a6568"
+            },
+            {
+              "bytes": 2655,
+              "path": "android/umxhq_vocals.param",
+              "sha256": "dc575382d4c931f3adecb85a5ca785017537b2262b7a29566b0a9fbc8bb57f5d"
+            }
+          ],
+          "kind": "ncnn",
+          "memory": {
+            "baselineMb": 49.9,
+            "computeUnits": "CPU, 2 thread, senza Vulkan, float32",
+            "deltaMb": 141.3,
+            "peakMb": 191.2,
+            "run": "gal-modelli, run 43235336133, 2026-11-12",
+            "runner": "GitHub Actions ubuntu-latest, x86_64, CPU",
+            "source": "ci"
+          },
+          "minOs": "7.0",
+          "root": "android"
+        },
+        "ios": {
+          "bytes": 35637233,
+          "files": [
+            {
+              "bytes": 243,
+              "path": "ios/umxhq_vocals.mlmodelc/analytics/coremldata.bin",
+              "sha256": "b9bb8da330f1cc260d84a128835f2aeb8265a37ad8e205412c3ef9134781e247"
+            },
+            {
+              "bytes": 386,
+              "path": "ios/umxhq_vocals.mlmodelc/coremldata.bin",
+              "sha256": "a6198a16406fc1b3470f3442256a7c570df0e2f87de89f8599854608911abda6"
+            },
+            {
+              "bytes": 1869,
+              "path": "ios/umxhq_vocals.mlmodelc/metadata.json",
+              "sha256": "eeb299693afe616b7e440ea1330adc357ede4af38120f0ac5c8b8b0253b28f97"
+            },
+            {
+              "bytes": 21479,
+              "path": "ios/umxhq_vocals.mlmodelc/model.mil",
+              "sha256": "be6239dc6bbb423c2a1474da887666f2ba862e837f84405cbfcf6face51848c9"
+            },
+            {
+              "bytes": 35613256,
+              "path": "ios/umxhq_vocals.mlmodelc/weights/weight.bin",
+              "sha256": "212ba9e24c1e37d1a1d53312f797cc44bdcf93b77a2dafe474826248bff07c15"
+            }
+          ],
+          "kind": "coreml",
+          "memory": {
+            "baselineMb": 20,
+            "computeUnits": "Core ML, unità ALL (GPU e CPU per i modelli float32)",
+            "deltaMb": 279,
+            "peakMb": 299,
+            "run": "build 1006, 2026-11-12",
+            "runner": "iPhone 16 (A18, 6 core, RAM 7680 MB)",
+            "source": "telefono"
+          },
+          "minOs": "15.0",
+          "root": "ios/umxhq_vocals.mlmodelc"
+        }
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "source": {
+    "release": "stem-ai-studio-modelli-2",
+    "repository": "GarageAppsLabCH/LABORATORIO_GAL"
+  },
+  "version": "modelli-2"
+}
