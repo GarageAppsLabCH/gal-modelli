@@ -1,0 +1,68 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float32",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 4 × 3072 × 256)",
+        "shortDescription" : "",
+        "shape" : "[1, 4, 3072, 256]",
+        "name" : "output",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 6,
+    "mlProgramOperationTypeHistogram" : {
+      "Matmul" : 22,
+      "Conv" : 40,
+      "Relu" : 66,
+      "Transpose" : 2,
+      "Add" : 11,
+      "ConvTranspose" : 5,
+      "BatchNorm" : 22,
+      "Mul" : 5
+    },
+    "computePrecision" : "Mixed (Float32, Int32)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "12.0",
+      "tvOS" : "15.0",
+      "visionOS" : "1.0",
+      "watchOS" : "8.0",
+      "iOS" : "15.0",
+      "macCatalyst" : "15.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.conversion_date" : "2026-11-10",
+      "com.github.apple.coremltools.source" : "torch==2.5.1+cpu",
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 4 × 3072 × 256)",
+        "shortDescription" : "",
+        "shape" : "[1, 4, 3072, 256]",
+        "name" : "input",
+        "type" : "MultiArray"
+      }
+    ],
+    "generatedClassName" : "Kim_Vocal_2",
+    "method" : "predict"
+  }
+]
