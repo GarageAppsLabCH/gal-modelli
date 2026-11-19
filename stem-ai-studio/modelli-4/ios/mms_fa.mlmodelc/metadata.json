@@ -1,0 +1,71 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float32",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 999 × 28)",
+        "shortDescription" : "",
+        "shape" : "[1, 999, 28]",
+        "name" : "emission",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 6,
+    "mlProgramOperationTypeHistogram" : {
+      "Linear" : 146,
+      "Matmul" : 48,
+      "Conv" : 8,
+      "Softmax" : 24,
+      "SliceByIndex" : 1,
+      "Transpose" : 111,
+      "LayerNorm" : 57,
+      "ExpandDims" : 1,
+      "Add" : 49,
+      "Gelu" : 32,
+      "Reshape" : 96
+    },
+    "computePrecision" : "Mixed (Float32, Int32)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "12.0",
+      "tvOS" : "15.0",
+      "visionOS" : "1.0",
+      "watchOS" : "8.0",
+      "iOS" : "15.0",
+      "macCatalyst" : "15.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.conversion_date" : "2026-11-19",
+      "com.github.apple.coremltools.source" : "torch==2.5.1+cpu",
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 320000)",
+        "shortDescription" : "",
+        "shape" : "[1, 320000]",
+        "name" : "waveform",
+        "type" : "MultiArray"
+      }
+    ],
+    "generatedClassName" : "mms_fa",
+    "method" : "predict"
+  }
+]
